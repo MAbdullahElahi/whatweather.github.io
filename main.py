@@ -1,4 +1,7 @@
 from flask import Flask, render_template
+import os
+
+os.system("pip install flask")
 
 app = Flask(__name__)
 
